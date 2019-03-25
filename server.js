@@ -8,4 +8,4 @@ app.get('*', function(req, res, next) {
   res.sendFile('index.html', { root: __dirname });
 });
 
-var server = app.listen(process.env.PORT || 4200);
+app.listen(process.env.PORT || 4200);
