@@ -1,4 +1,4 @@
-var express = require('express'),
+/*var express = require('express'),
 app = express();
 
 app.use(express.static(__dirname));
@@ -8,4 +8,4 @@ app.get('*', function(req, res, next) {
   res.sendFile('index.html', { root: __dirname });
 });
 
-app.listen(process.env.PORT || 4200);
+app.listen(process.env.PORT || 4200);*/
